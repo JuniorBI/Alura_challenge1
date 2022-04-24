@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Cripto Alura + Oracle</title>
+</head>
+<body>
+
+    <header>
+        <img src="./img/alura.svg" alt="logo" class="logo_alura">
+    </header>
+
+   <section class="encriptador">
+    
+        <textarea name="" id="mensagem" cols="100" rows="15" placeholder="Digite o seu texto aqui."></textarea>
+         <p><i class="alerta"></i> <img src="./img/info.svg" alt="info"> Apenas letras minúsculas e sem acento. </p>
+         <div class="botoes">
+               <button  class="botao-encriptar">Criptografar</button>
+               <button  class="botao-desencriptar">Descriptografar</button>
+         </div> 
+         <span id="msg" class="aviso"></span>
+
+   </section>
+
+  
+   <section>
+
+       <div id="decodificador">
+           <img src="./img/pessoa.svg" alt="" class="img-personagem">
+           <h1 class="titulo">Nenhuma mensagem encontrada</h1>
+           <p class="paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+       </div>
+       
+   </section>
+
+<script  src="script.js"></script>
+
+</body>
+</html>
